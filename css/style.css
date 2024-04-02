@@ -70,7 +70,7 @@ html{
 }
 
 .background{
-    background: rgba(0, 0, 0, 0.7) url('../img/bg3.jpg');
+    background: rgba(0, 0, 0, 0.7) url('../img/bg4.png');
     background-size: cover;
     background-blend-mode: darken;
 }
