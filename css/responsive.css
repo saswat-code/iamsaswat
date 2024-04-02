@@ -46,7 +46,7 @@
     .paras{
         padding: 0px;
     }
-    .background{
-        height: auto;
-    }
+    .background {
+        background: rgba(0, 0, 0, 0.7) url('../img/bg4.png') no-repeat center center / cover;
+      }
 }
