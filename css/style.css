@@ -14,9 +14,10 @@ html{
 }
 .logo img{
     width: 33%;
-    border: 3px solid white;
+    border: 1px solid white;
     border-radius: 50px;
     margin: 10px;
+    
 }
 
 .navbar{
