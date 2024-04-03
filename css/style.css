@@ -211,7 +211,9 @@ html{
 .forms{
     max-width: 62%;
     margin: 42px auto;
+    
 }
+
 .form-input{
     margin: 13px 0;
     padding: 5px 3px;
