@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, 
     initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    
+
     <title>prmfilm</title>
-   
+
 </head>
 
 <body>
@@ -45,17 +45,18 @@
                 <p class="text-big">WELCOME TO PRM FILM</p>
 
                 <br>
-                
+
                 <p class="text-small">
                     Explore your innre self!
-                    </p>
-                    
-                    <!--<p class="text-small2">Creating entertaining, inspiring and extraordinary stories for the world.</p>-->
-                    <br>
+                </p>
 
-                    <div class="buttons">
-                        <button class="btn1" type="button" onclick="location.href = 'https://www.youtube.com/@prmfilm'"> <a target="_blank"  href="/"> Youtube Subscribe now!</a></button>
-                    </div>
+                <!--<p class="text-small2">Creating entertaining, inspiring and extraordinary stories for the world.</p>-->
+                <br>
+
+                <div class="buttons">
+                    <button class="btn1" type="button" onclick="location.href = 'https://www.youtube.com/@prmfilm'"> <a
+                            target="_blank" href="/"> Youtube Subscribe now!</a></button>
+                </div>
             </div>
             <div class="secondhalf">
                 <img src="img/prm112.png" alt="Company logo">
@@ -66,23 +67,25 @@
 
     <section class="section" id="videos">
         <div class="paras">
-        <p class="sectiontag text-big">Teaser</p>
-        <p class="sectionsubtag text-small">A tale of three friends , on the way to explore the twist of life.</p>
-        <p class="sectionsubtag text-small">Bound by years of shared experiences, their friendship weathers the storms of adulthood. </p>
-        <p class="sectionsubtag text-small">Together, they confront challenges, celebrate victories, and discover the true meaning of loyalty and resilience. Their journey highlights the power of friendship to transcend boundaries and shape destinies.e.</p>
+            <p class="sectiontag text-big">Teaser</p>
+            <p class="sectionsubtag text-small">A tale of three friends , on the way to explore the twist of life.</p>
+            <p class="sectionsubtag text-small">Bound by years of shared experiences, their friendship weathers the
+                storms of adulthood. </p>
+            <p class="sectionsubtag text-small">Together, they confront challenges, celebrate victories, and discover
+                the true meaning of loyalty and resilience. Their journey highlights the power of friendship.</p>
 
-    </div>
+        </div>
         <div class="picture">
             <video source src="videos/TEASER.webm" type="video/webm" controls autoplay muted playsinline></video>
         </div>
     </section>
 
-   <!-- <section class="section section-left" id="about">
+    <!-- <section class="section section-left" id="about">
         <div class="paras">
         <p class="sectiontag text-big">Title</p>
         <p class="sectionsubtag text-small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente sequi tempore repudiandae ratione repellendus mollitia alias explicabo est distinctio voluptate!</p>-->
     </div>
-       <!-- <div class="picture">
+    <!-- <div class="picture">
             <img src="https://source.unsplash.com/900x900/?films,video" alt="Random Image from Unsplash" class="imgFluid">
         </div>
     </section>
@@ -92,31 +95,36 @@
         <p class="sectiontag text-big">Title</p>
         <p class="sectionsubtag text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore ex dicta suscipit saepe dolorum accusantium neque maxime id accusamus?</p>
     </div>-->
-        <div class="picture">
-           <!-- <img src="img/prm112.png" alt="Random Image from Unsplash" class="imgFluid">-->
-            
-        </div>
+    <div class="picture">
+        <!-- <img src="img/prm112.png" alt="Random Image from Unsplash" class="imgFluid">-->
+
+    </div>
     </section>
 
-    
 
-    <section class="contact" id="contact">
+
+    <section class="contact" id="contact" >
+        <form  action="https://api.web3forms.com/submit" method="POST"  >
         <h2 class="text-center">Get in touch </h2>
-        <div class="form">
+        <div class="forms" >
+            <input type="hidden" name="access_key" value="6c2ccf98-2e29-4fea-8902-7e8fef3cb659">
             <input class="form-input" type="text" name="name" id="name" placeholder="Enter your Name" required>
-            
-            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your Email" required>
-            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Message" required></textarea>
+
+            <input class="form-input" type="text" name="email" id="email" placeholder="Enter your Email" required>
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Message"
+                required></textarea>
             <button class="btn btn-dark">Submit</button>
+        </form>
         </div>
     </section>
 
     <footer class="background">
         <p class="text-footer">
-        Copyright &copy; 2024 - Prmfilm | All right reserved
-    </p>
+            Copyright &copy; 2024 - Prmfilm | All rights reserved
+        </p>
     </footer>
     <script src="js/resp.js"></script>
+    
 </body>
 
 </html>
